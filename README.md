@@ -1,5 +1,5 @@
 # Bash
-A command line application that simulates some bash commands.
+A C# command line application that simulates some bash commands.
 
 
 ## Commands available:
