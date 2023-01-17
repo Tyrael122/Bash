@@ -1,5 +1,5 @@
 # Bash
-A command line application that simulates bash commands.
+A command line application that simulates some bash commands.
 
 
 ## Commands available:
