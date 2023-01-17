@@ -13,5 +13,25 @@ Usage: `ls`
 
 ### copy
 Copies a file into a directory or into another file (by overwriting it), or a directory into another directory (by creating a subfolder). <br>
-Usage: ``
+Usage: `copy <source_path> <destination_path>`
+
+### move
+Moves a file into a directoro or into another file (by overwriting it), or a directory into another directory (by creating a subfolder). <br> 
+Usage: `move <source_path> <destination_path>`
+
+### rm
+Removes a file or a directory and all of its subfolders. <br>
+Usage: `rm <target_path>`
+
+### rename
+Renames a file or a directory by moving to themselves. <br>
+Usage `rename <source> <target_name>`
+
+### mkdir
+Creates a directory in the specified path. <br>
+Usage: `mkdir <directory_path>`
+
+### mkfile
+Creates a file in the specified path. <br>
+Usage: `mkfile <file_path>` 
 
