@@ -1,7 +1,7 @@
 # Bash
 A C# command line application that simulates some bash commands.
 
-
+Disclaimer: this version doesn't support paths, file names and directory names with spaces. It'll be fixed on a later update.
 ## Commands available:
 ### cd
 Changes the directory to a specified location. If you just enter cd without any parameters, it will go to the parent directory. <br>
