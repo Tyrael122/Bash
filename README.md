@@ -35,3 +35,11 @@ Usage: `mkdir <directory_path>`
 Creates a file in the specified path. <br>
 Usage: `mkfile <file_path>` 
 
+### ps
+Shows the current processes ordered by memory usage (in Megabytes). <br>
+Usage: `ps`
+
+### myip
+Shows the local and public ip of the computer.
+Usage: `myip`
+
