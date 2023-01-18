@@ -26,7 +26,7 @@
 
         public static async Task CopyAsync(string source, string destination)
         {
-            Utils.CheckPathExistent(source, destination);
+            Utils.CheckPathExistent(source);
 
             Action taskAction = null;
             string message = null;
@@ -106,11 +106,7 @@
 
         public static async Task RemoveAsync(string path)
         {
-            if (!Path.Exists(path))
-            {
-                Console.WriteLine("The specified path does not exist.");
-                return;
-            }
+            Utils.CheckPathExistent(path);
 
             Action taskAction = null;
             if (Utils.IsFile(path))
